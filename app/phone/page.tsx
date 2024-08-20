@@ -30,7 +30,7 @@ const PhonePage = () => {
       call.accept();
     });
 
-    await newDevice.register();
+    await newDevice.connect();
     setDevice(newDevice);
   };
 
